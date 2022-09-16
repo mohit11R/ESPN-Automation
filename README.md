@@ -31,27 +31,25 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## File Structure
 ```
-CryptoCurrencyData
-    ├── Individual_Crypto_Data
-    |                ├── coin_BinanceCoin.csv
-    |                ├── coin_Bitcoin.csv
-    |                ├── coin_Dogecoin.csv
-    |                ├── coin_Ethereum.csv
-    |                ├── coin_Solana.csv
-    |                ├── coin_Stellar.csv
-    |                ├── coin_Tether.csv
-    |                ├── coin_USDCoin.csv
-    |                ├── coin_WrappedBitcoin.csv
-    |                ├── coin_XRP.csv
+ESPN_Project
+    ├── Charts
+    |        ├── barchart.xlsx
+    |        ├── barchart_1.xlsx
     |
+    ├── Collected_data
+    |        ├── data_football.xlsx
+    |        ├── data_ICC_Test.xlsx
+    |        ├── Main_Events.txt
     |
-    ├── Combined_Crypto_Data
-    |                ├── CryptoCurrencyData.xlsx
+    ├── Main_Scripts
+    |        ├── Basic_Functions.py
+    |        ├── FootballStatsFunctions.py
+    |        ├── main.py
+    |        ├── stats_Functions.py
     |
-    |
-    ├── Dashboard
-    ├── crypto1.png
-    ├── crypto2.png
+    ├── Testing_TestCases
+    |        ├── testCases.py
+    |        ├── unitTest.py
 ```
 
 
