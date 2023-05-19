@@ -9,10 +9,10 @@ def login(driver):
     driver.implicitly_wait(5)
 
     Username = driver.find_element_by_xpath("/html/body/div[1]/div/div/section/section/form/section/div[1]/div/label/span[2]/input")
-    Username.send_keys("rikhimohit88@gmail.com")
+    Username.send_keys("")
     driver.implicitly_wait(5)
     Password = driver.find_element_by_xpath("/html/body/div[1]/div/div/section/section/form/section/div[2]/div/label/span[2]/input")
-    Password.send_keys("Mohit@1234R")
+    Password.send_keys("")
     driver.implicitly_wait(10)
     Login_Button = driver.find_element_by_xpath("/html/body/div[1]/div/div/section/section/form/section/div[3]/button")
     Login_Button.click()
